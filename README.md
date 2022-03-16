@@ -40,6 +40,8 @@ receivers = ['1934109821@qq.com']
 [点击进入腾讯云函数服务官网](https://cloud.tencent.com/product/scf)
 <br><br>
 1.直接QQ登录就行，右上角进控制台
+<br>
+（新用户初次登录可能需要授权啥玩意的，按引导来，允许吧，我也没仔细看QAQ）
 ![](image/1.png)
 <br><br>
 2.搜索云函数
