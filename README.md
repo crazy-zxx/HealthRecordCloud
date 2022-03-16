@@ -11,7 +11,7 @@ git clone https://github.com/crazy-zxx/HealthRecordCloud.git
 #### 配置
 
 ```
-# 进入目录，直接下载的解压后文件夹名字可能是HealthRecord-master
+# 进入目录，直接下载的解压后文件夹名字可能是HealthRecordCloud-master
 cd HealthRecordCloud
 ```
 修改main.py中的用户名密码

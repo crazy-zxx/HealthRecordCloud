@@ -11,7 +11,7 @@ def send_email(info):
     # 以QQ为例
     mail_host = "smtp.qq.com"  # 设置服务器
     mail_user = "1934109821@qq.com"  # 用户名（你的QQ账号@qq.com）
-    mail_pass = "vpnvpmnmzadgcfef"  # 口令（先要开启SMTP，口令是16位字母）
+    mail_pass = "qwertyuiopasdfgh"  # 口令（先要开启SMTP，口令是16位字母）
 
     # 发件人邮箱
     sender = '1934109821@qq.com'
