@@ -16,12 +16,12 @@ def send_email(info):
     # 发件人邮箱
     sender = '1934109821@qq.com'
     # 收件人邮箱
-    receivers = ['1934109821@qq.com']
+    receiver = '1934109821@qq.com'
 
     # 邮件内容
     message = MIMEText(info, 'plain', 'utf-8')
-    message['From'] = Header("腾讯云打卡", 'utf-8')
-    message['To'] = Header("自己", 'utf-8')
+    message['From'] = Header("腾讯云打卡<%s>" % sender, 'utf-8')
+    message['To'] = Header("自己<%s>" % receiver, 'utf-8')
     # 邮件主题
     subject = info
     message['Subject'] = Header(subject, 'utf-8')
@@ -32,7 +32,11 @@ def send_email(info):
         smtpObj.connect(mail_host, 25)  # 25 为 SMTP 端口号
         smtpObj.login(mail_user, mail_pass)
         # 发送邮件
-        smtpObj.sendmail(sender, receivers, message.as_string())
+        smtpObj.sendmail(sender, receiver, message.as_string())
         print("邮件发送成功")
     except smtplib.SMTPException:
         print("无法发送邮件")
+
+
+if __name__ == '__main__':
+    send_email('ok')
