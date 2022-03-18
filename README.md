@@ -35,6 +35,9 @@ sender = '1934109821@qq.com'
 # 收件人邮箱(设置为自己接受邮件通知的邮箱)
 receivers = ['1934109821@qq.com']
 ```
+QQ邮箱SMTP开启：
+![](image/0.png)
+
 
 #### 环境搭建
 [点击进入腾讯云函数服务官网](https://cloud.tencent.com/product/scf)
