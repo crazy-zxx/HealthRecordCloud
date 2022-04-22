@@ -14,7 +14,7 @@ git clone https://github.com/crazy-zxx/HealthRecordCloud.git
 # 进入目录，直接下载的解压后文件夹名字可能是HealthRecordCloud-master
 cd HealthRecordCloud
 ```
-修改main.py中的用户名密码
+修改index.py中的用户名密码
 ```
 # ------------------  只需要在此处设置你的智慧青科大账号和密码即可   ------------------------
 # 用户名
