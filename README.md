@@ -1,5 +1,7 @@
 # 智慧青科大健康打卡腾讯云版
 
+## 腾讯云函数已经开始收费！！！建议自建服务器打卡！！！
+
 ### 下载
 ```
 git clone https://github.com/crazy-zxx/HealthRecordCloud.git
